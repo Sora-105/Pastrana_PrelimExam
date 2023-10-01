@@ -38,7 +38,6 @@
        update_cache: yes
      when: ansible_distribution == "CentOS"
 
-   tasks:
    -  name: Banner MOTD
       ansible.builtin.debug:
        msg:
